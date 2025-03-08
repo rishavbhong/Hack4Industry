@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack4Industry</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/blanka" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Hack4Industry</div>
+
+        <!-- ✅ Hamburger Button (for mobile) -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#themes">Themes</a></li>
+            <li><a href="#prizes">Prizes</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#register" >Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Hero Section -->
+    <header>
+        <h1>EPITOME'25</h1>
+        <h2>Welcome to Hack4Industry</h2>
+        <p>Join the ultimate industry-driven hackathon at Epitome'25!</p>
+        <a href="#register" class="btn">Register Now</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Event</h2>
+        <p>Hack4Industry is a premier hackathon where students solve real-world industry problems.</p>
+    </section>
+
+    <!-- Themes Section -->
+    <section id="themes">
+        <h2>Hackathon Themes</h2>
+        <div class="theme-cards">
+            <div class="card">AI & Automation</div>
+            <div class="card">Logistics & Supply Chain</div>
+            <div class="card">Smart Infrastructure</div>
+            <div class="card">Cybersecurity</div>
+        </div>
+    </section>
+
+    <!-- Prizes Section -->
+    <section id="prizes">
+        <h2>Prizes</h2>
+        <div class="prize-box">Total Prize Pool: ₹2,00,000</div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">Who can participate?</button>
+            <p class="faq-answer">Students from all over India can participate.</p>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">Is there a registration fee?</button>
+            <p class="faq-answer">No, registration is completely free.</p>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register">
+        <h2>Register Now</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Hack4Industry. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
